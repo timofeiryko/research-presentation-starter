@@ -1,0 +1,10 @@
+# Служебные результаты сборки (source/BUILD.md)
+source/.build/
+source/output/
+
+# Node
+node_modules/
+
+# Системное
+Thumbs.db
+.DS_Store

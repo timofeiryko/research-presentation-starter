@@ -1,0 +1,122 @@
+{
+  "drive": {
+    "tex": "F=\\chi pS=0{,}5\\cdot0{,}3\\cdot16=2{,}4\\;\\text{Н}",
+    "color": "#47705A"
+  },
+  "season": {
+    "tex": "N=10\\cdot100\\cdot100=100\\,000",
+    "color": "#47705A"
+  },
+  "intensity": {
+    "tex": "I=I_0\\,10^{L/10}=10^{-12}\\cdot10^{3{,}3}\\approx2\\cdot10^{-9}\\;\\frac{\\text{Вт}}{\\text{м}^2}",
+    "color": "#47705A"
+  },
+  "power": {
+    "tex": "P=4\\pi r^2I\\,10^{\\alpha r/10}=4\\pi\\cdot20^2 I\\cdot10\\approx10^{-4}\\;\\text{Вт}",
+    "color": "#47705A"
+  },
+  "soundenergy": {
+    "tex": "E_{\\text{зв}}=PT=10^{-4}\\cdot0{,}01=10^{-6}\\;\\text{Дж}=1\\;\\text{мкДж}",
+    "color": "#47705A"
+  },
+  "work": {
+    "tex": "1.\\quad W=\\frac{E_{\\text{зв}}}{\\eta}=\\frac{1\\;\\text{мкДж}}{0{,}01}=0{,}1\\;\\text{мДж}",
+    "color": "#47705A"
+  },
+  "stiffness": {
+    "tex": "2.\\quad k=m_{\\text{эфф}}(2\\pi f)^2\\approx14\\;\\frac{\\text{кН}}{\\text{м}}\\quad(m_{\\text{эфф}}\\approx0{,}90\\;\\text{мг})",
+    "color": "#47705A"
+  },
+  "stroke": {
+    "tex": "3.\\quad W=\\frac{k\\delta^2}{2}\\quad\\Rightarrow\\quad\\delta=\\sqrt{\\frac{2W}{k}}\\approx0{,}12\\;\\text{мм}",
+    "color": "#47705A"
+  },
+  "peakforce": {
+    "tex": "F_{\\text{пик}}=k\\delta\\approx1{,}7\\;\\text{Н}",
+    "color": "#A96743"
+  },
+  "rms": {
+    "tex": "v_{\\text{ср.кв.}}=\\sqrt{\\frac{P}{\\sigma\\rho cS}}\\approx0{,}275\\;\\frac{\\text{м}}{\\text{с}}",
+    "color": "#47705A"
+  },
+  "peakv": {
+    "tex": "v_{\\text{пик}}\\approx v_{\\text{ср.кв.}}\\sqrt{\\frac{4T}{\\tau\\cdot(1/5)}}\\approx3{,}9\\;\\frac{\\text{м}}{\\text{с}}",
+    "color": "#39667D"
+  },
+  "amplitude": {
+    "tex": "A\\approx\\frac{v_{\\text{пик}}}{2\\pi f}\\approx31\\;\\text{мкм}\\qquad(f=20\\;\\text{кГц})",
+    "color": "#47705A"
+  },
+  "pressure": {
+    "tex": "p_{\\text{нужно}}=\\frac{F_{\\text{пик}}}{\\chi S}=\\frac{1{,}7}{0{,}5\\cdot16}\\approx0{,}21\\;\\text{МПа}",
+    "color": "#47705A"
+  },
+  "available": {
+    "tex": "F_{\\text{доступно}}=0{,}5\\cdot0{,}3\\cdot16=2{,}4\\;\\text{Н}",
+    "color": "#47705A"
+  },
+  "padstroke": {
+    "tex": "\\Delta h=\\frac{\\delta}{2}\\approx0{,}06\\;\\text{мм}",
+    "color": "#47705A"
+  },
+  "hydraulic": {
+    "tex": "L_p=\\frac{P_f\\,\\overline V_{\\text{воды}}}{RT}\\approx3{,}6\\cdot10^{-14}\\;\\frac{\\text{м}}{\\text{Па}\\cdot\\text{с}}",
+    "color": "#47705A"
+  },
+  "flux": {
+    "tex": "j=L_p\\Delta\\Psi\\approx3{,}6\\cdot10^{-9}\\;\\frac{\\text{м}}{\\text{с}}",
+    "color": "#47705A"
+  },
+  "recharge": {
+    "tex": "3.\\quad t=\\frac{0{,}1V}{jS}=\\frac{0{,}1r}{3j}\\approx90\\;\\text{с}",
+    "color": "#A96743"
+  },
+  "delay": {
+    "tex": "\\Delta t=\\frac{\\Delta L}{v}=\\frac{2{,}55\\;\\text{мм}}{5\\;\\text{мм/с}}=0{,}51\\;\\text{с}",
+    "color": "#39667D"
+  },
+  "pause": {
+    "tex": "t_{\\text{паузы}}=\\Delta t-T=0{,}51-0{,}01=0{,}50\\;\\text{с}",
+    "color": "#47705A"
+  },
+  "modeenergy": {
+    "tex": "E_{\\text{моды}}=\\frac{m_{\\text{эфф}}v_{\\text{пик}}^2}{2}\\approx6{,}8\\;\\text{мкДж}",
+    "color": "#47705A"
+  },
+  "bound": {
+    "tex": "v_{\\max}=\\sqrt{\\frac{2W}{m_{\\text{эфф}}}}\\approx15\\;\\frac{\\text{м}}{\\text{с}}\\quad\\text{(верхняя оценка)}",
+    "color": "#A96743"
+  },
+  "glucose": {
+    "tex": "m_{\\text{глюкозы}}=5\\cdot1{,}5=7{,}5\\;\\text{г}",
+    "color": "#47705A"
+  },
+  "construction": {
+    "tex": "E_{\\text{создания}}=7{,}5\\cdot15{,}6\\approx117\\;\\text{кДж}",
+    "color": "#47705A"
+  },
+  "maintenance": {
+    "tex": "E_{\\text{обслуживания}}=0{,}5\\cdot0{,}01\\cdot100\\cdot15{,}6\\approx8\\;\\text{кДж}",
+    "color": "#47705A"
+  },
+  "operation": {
+    "tex": "E_{\\text{работы}}=\\frac{NW}{\\varepsilon}=\\frac{100\\,000\\cdot10^{-4}}{0{,}01}=1000\\;\\text{Дж}=1\\;\\text{кДж}",
+    "color": "#47705A"
+  },
+  "budget": {
+    "tex": "E_{\\text{сезона}}=117+7{,}8+1\\approx130\\;\\text{кДж}",
+    "color": "#47705A"
+  },
+  "frequency": {
+    "tex": "f\\approx\\frac{10{,}21}{2\\pi a^2}\\sqrt{\\frac{Eh^2}{12\\rho(1-\\nu^2)}}\\approx20\\;\\text{кГц}",
+    "color": "#47705A"
+  },
+  "charge_stroke": {
+    "tex": "\\delta=\\frac{2W}{F_{\\text{пик}}}\\approx0{,}12\\;\\text{мм}",
+    "color": "#47705A"
+  },
+  "recharge_brief": {
+    "tex": "t=\\frac{0{,}1r}{3j}\\approx90\\;\\text{с}",
+    "color": "#A96743"
+  }
+}

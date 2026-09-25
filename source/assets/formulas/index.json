@@ -1,0 +1,182 @@
+{
+  "drive": {
+    "tex": "F=\\chi pS=0{,}5\\cdot0{,}3\\cdot16=2{,}4\\;\\text{Н}",
+    "color": "#47705A",
+    "width": 13680.6,
+    "height": 954
+  },
+  "season": {
+    "tex": "N=10\\cdot100\\cdot100=100\\,000",
+    "color": "#47705A",
+    "width": 12167,
+    "height": 765
+  },
+  "intensity": {
+    "tex": "I=I_0\\,10^{L/10}=10^{-12}\\cdot10^{3{,}3}\\approx2\\cdot10^{-9}\\;\\frac{\\text{Вт}}{\\text{м}^2}",
+    "color": "#47705A",
+    "width": 18349.9,
+    "height": 2534
+  },
+  "power": {
+    "tex": "P=4\\pi r^2I\\,10^{\\alpha r/10}=4\\pi\\cdot20^2 I\\cdot10\\approx10^{-4}\\;\\text{Вт}",
+    "color": "#47705A",
+    "width": 19215.5,
+    "height": 1143.3
+  },
+  "soundenergy": {
+    "tex": "E_{\\text{зв}}=PT=10^{-4}\\cdot0{,}01=10^{-6}\\;\\text{Дж}=1\\;\\text{мкДж}",
+    "color": "#47705A",
+    "width": 19588.6,
+    "height": 1209.9
+  },
+  "work": {
+    "tex": "1.\\quad W=\\frac{E_{\\text{зв}}}{\\eta}=\\frac{1\\;\\text{мкДж}}{0{,}01}=0{,}1\\;\\text{мДж}",
+    "color": "#47705A",
+    "width": 15910.2,
+    "height": 2360.2
+  },
+  "stiffness": {
+    "tex": "2.\\quad k=m_{\\text{эфф}}(2\\pi f)^2\\approx14\\;\\frac{\\text{кН}}{\\text{м}}\\quad(m_{\\text{эфф}}\\approx0{,}90\\;\\text{мг})",
+    "color": "#47705A",
+    "width": 21553.8,
+    "height": 2336
+  },
+  "stroke": {
+    "tex": "3.\\quad W=\\frac{k\\delta^2}{2}\\quad\\Rightarrow\\quad\\delta=\\sqrt{\\frac{2W}{k}}\\approx0{,}12\\;\\text{мм}",
+    "color": "#47705A",
+    "width": 18931.8,
+    "height": 2460
+  },
+  "peakforce": {
+    "tex": "F_{\\text{пик}}=k\\delta\\approx1{,}7\\;\\text{Н}",
+    "color": "#A96743",
+    "width": 7786.9,
+    "height": 1068.2
+  },
+  "rms": {
+    "tex": "v_{\\text{ср.кв.}}=\\sqrt{\\frac{P}{\\sigma\\rho cS}}\\approx0{,}275\\;\\frac{\\text{м}}{\\text{с}}",
+    "color": "#47705A",
+    "width": 12547.3,
+    "height": 3060
+  },
+  "peakv": {
+    "tex": "v_{\\text{пик}}\\approx v_{\\text{ср.кв.}}\\sqrt{\\frac{4T}{\\tau\\cdot(1/5)}}\\approx3{,}9\\;\\frac{\\text{м}}{\\text{с}}",
+    "color": "#39667D",
+    "width": 14739.6,
+    "height": 3060
+  },
+  "amplitude": {
+    "tex": "A\\approx\\frac{v_{\\text{пик}}}{2\\pi f}\\approx31\\;\\text{мкм}\\qquad(f=20\\;\\text{кГц})",
+    "color": "#47705A",
+    "width": 16515.5,
+    "height": 2112.2
+  },
+  "pressure": {
+    "tex": "p_{\\text{нужно}}=\\frac{F_{\\text{пик}}}{\\chi S}=\\frac{1{,}7}{0{,}5\\cdot16}\\approx0{,}21\\;\\text{МПа}",
+    "color": "#47705A",
+    "width": 16443.2,
+    "height": 2348.2
+  },
+  "available": {
+    "tex": "F_{\\text{доступно}}=0{,}5\\cdot0{,}3\\cdot16=2{,}4\\;\\text{Н}",
+    "color": "#47705A",
+    "width": 13944.1,
+    "height": 1068.2
+  },
+  "padstroke": {
+    "tex": "\\Delta h=\\frac{\\delta}{2}\\approx0{,}06\\;\\text{мм}",
+    "color": "#47705A",
+    "width": 8272.1,
+    "height": 2079
+  },
+  "hydraulic": {
+    "tex": "L_p=\\frac{P_f\\,\\overline V_{\\text{воды}}}{RT}\\approx3{,}6\\cdot10^{-14}\\;\\frac{\\text{м}}{\\text{Па}\\cdot\\text{с}}",
+    "color": "#47705A",
+    "width": 15637.9,
+    "height": 2688.2
+  },
+  "flux": {
+    "tex": "j=L_p\\Delta\\Psi\\approx3{,}6\\cdot10^{-9}\\;\\frac{\\text{м}}{\\text{с}}",
+    "color": "#47705A",
+    "width": 11114.9,
+    "height": 2336
+  },
+  "recharge": {
+    "tex": "3.\\quad t=\\frac{0{,}1V}{jS}=\\frac{0{,}1r}{3j}\\approx90\\;\\text{с}",
+    "color": "#A96743",
+    "width": 12673.7,
+    "height": 2249
+  },
+  "delay": {
+    "tex": "\\Delta t=\\frac{\\Delta L}{v}=\\frac{2{,}55\\;\\text{мм}}{5\\;\\text{мм/с}}=0{,}51\\;\\text{с}",
+    "color": "#39667D",
+    "width": 13500.7,
+    "height": 2386
+  },
+  "pause": {
+    "tex": "t_{\\text{паузы}}=\\Delta t-T=0{,}51-0{,}01=0{,}50\\;\\text{с}",
+    "color": "#47705A",
+    "width": 17120.9,
+    "height": 1068.2
+  },
+  "modeenergy": {
+    "tex": "E_{\\text{моды}}=\\frac{m_{\\text{эфф}}v_{\\text{пик}}^2}{2}\\approx6{,}8\\;\\text{мкДж}",
+    "color": "#47705A",
+    "width": 13655.8,
+    "height": 2468.7
+  },
+  "bound": {
+    "tex": "v_{\\max}=\\sqrt{\\frac{2W}{m_{\\text{эфф}}}}\\approx15\\;\\frac{\\text{м}}{\\text{с}}\\quad\\text{(верхняя оценка)}",
+    "color": "#A96743",
+    "width": 20390.8,
+    "height": 3060
+  },
+  "glucose": {
+    "tex": "m_{\\text{глюкозы}}=5\\cdot1{,}5=7{,}5\\;\\text{г}",
+    "color": "#47705A",
+    "width": 11254.4,
+    "height": 1068.2
+  },
+  "construction": {
+    "tex": "E_{\\text{создания}}=7{,}5\\cdot15{,}6\\approx117\\;\\text{кДж}",
+    "color": "#47705A",
+    "width": 14238.7,
+    "height": 1068.2
+  },
+  "maintenance": {
+    "tex": "E_{\\text{обслуживания}}=0{,}5\\cdot0{,}01\\cdot100\\cdot15{,}6\\approx8\\;\\text{кДж}",
+    "color": "#47705A",
+    "width": 19658.6,
+    "height": 1068.2
+  },
+  "operation": {
+    "tex": "E_{\\text{работы}}=\\frac{NW}{\\varepsilon}=\\frac{100\\,000\\cdot10^{-4}}{0{,}01}=1000\\;\\text{Дж}=1\\;\\text{кДж}",
+    "color": "#47705A",
+    "width": 23448.9,
+    "height": 2427.8
+  },
+  "budget": {
+    "tex": "E_{\\text{сезона}}=117+7{,}8+1\\approx130\\;\\text{кДж}",
+    "color": "#47705A",
+    "width": 15334.6,
+    "height": 1068.2
+  },
+  "frequency": {
+    "tex": "f\\approx\\frac{10{,}21}{2\\pi a^2}\\sqrt{\\frac{Eh^2}{12\\rho(1-\\nu^2)}}\\approx20\\;\\text{кГц}",
+    "color": "#47705A",
+    "width": 15508.9,
+    "height": 3060
+  },
+  "charge_stroke": {
+    "tex": "\\delta=\\frac{2W}{F_{\\text{пик}}}\\approx0{,}12\\;\\text{мм}",
+    "color": "#47705A",
+    "width": 8805.9,
+    "height": 2363.2
+  },
+  "recharge_brief": {
+    "tex": "t=\\frac{0{,}1r}{3j}\\approx90\\;\\text{с}",
+    "color": "#A96743",
+    "width": 7075.1,
+    "height": 2232
+  }
+}
